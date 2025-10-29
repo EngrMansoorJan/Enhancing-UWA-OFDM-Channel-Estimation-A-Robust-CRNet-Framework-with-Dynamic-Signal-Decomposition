@@ -1,7 +1,6 @@
 # Enhancing-UWA-OFDM-Channel-Estimation-A-Robust-CRNet-Framework-with-Dynamic-Signal-Decomposition
 
-# UWA-OFDM Communication System with CRNet Channel Estimation  
-This repository implements an end-to-end underwater acoustic (UWA) OFDM communication system, including data generation, transmitter, channel propagation, CRNet-based channel estimation, and performance analysis—strictly aligned with the parameters and methodology*.  
+This repository implements an end-to-end underwater acoustic (UWA) OFDM communication system, including data generation, transmitter, channel propagation, CRNet-based channel estimation, and performance analysis—strictly aligned with the parameters and methodology.  
 
 
 ## 1. Data Generation  
@@ -17,7 +16,7 @@ This repository implements an end-to-end underwater acoustic (UWA) OFDM communic
 - **Details**:  
   - 1024 total subcarriers (767 data, 256 comb-type pilots, 1 DC guard).  
   - 128-sample cyclic prefix (CP) to mitigate multipath.  
-  - QPSK modulation (gray-coded) for data subcarriers.  
+  - QPSK/QAM modulation (gray-coded) for data subcarriers.  
 - **Output**: Real-valued baseband OFDM signals compatible with UWA transducers.  
 
 
@@ -43,7 +42,7 @@ This repository implements an end-to-end underwater acoustic (UWA) OFDM communic
   -  MSE for channel estimation accuracy.  
   - BER (QPSK/QAM demodulation) for end-to-end performance.  
   - Amplitude/phase error for detailed channel analysis.  
-- **Comparisons**: CRNet vs. baselines (LS, MMSE, BPNN) across SNR (0–25 dB), matching Table 5 and Figs. 3–5.  
+- **Comparisons**: CRNet vs. baselines (LS, MMSE, BPNN) across SNR (0–25 dB), matching Table 5 and Figs. 4–7.  
 
 
 ## Dependencies  
