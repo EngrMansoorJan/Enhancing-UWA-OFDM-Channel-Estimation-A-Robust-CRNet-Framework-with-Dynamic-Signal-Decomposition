@@ -40,8 +40,8 @@ This repository implements an end-to-end underwater acoustic (UWA) OFDM communic
 
 ## 5. Results & Discussion  
 - **Metrics**: Implements key metrics from Section 4:  
-  - NMSE (Eq. 17) and MSE for channel estimation accuracy.  
-  - BER (QPSK demodulation) for end-to-end performance.  
+  -  MSE for channel estimation accuracy.  
+  - BER (QPSK/QAM demodulation) for end-to-end performance.  
   - Amplitude/phase error for detailed channel analysis.  
 - **Comparisons**: CRNet vs. baselines (LS, MMSE, BPNN) across SNR (0–25 dB), matching Table 5 and Figs. 3–5.  
 
