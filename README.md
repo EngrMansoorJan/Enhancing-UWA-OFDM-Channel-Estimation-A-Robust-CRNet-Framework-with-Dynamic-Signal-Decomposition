@@ -1,7 +1,7 @@
 # Enhancing-UWA-OFDM-Channel-Estimation-A-Robust-CRNet-Framework-with-Dynamic-Signal-Decomposition
 
 # UWA-OFDM Communication System with CRNet Channel Estimation  
-This repository implements an end-to-end underwater acoustic (UWA) OFDM communication system, including data generation, transmitter, channel propagation, CRNet-based channel estimation, and performance analysis—strictly aligned with the parameters and methodology in *frontiers.pdf*.  
+This repository implements an end-to-end underwater acoustic (UWA) OFDM communication system, including data generation, transmitter, channel propagation, CRNet-based channel estimation, and performance analysis—strictly aligned with the parameters and methodology*.  
 
 
 ## 1. Data Generation  
